@@ -1,0 +1,286 @@
+[debug] [2022-08-25T18:34:07.451Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T18:34:07.453Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-25T18:34:07.454Z] CLI Version:   11.8.0
+[debug] [2022-08-25T18:34:07.454Z] Platform:      win32
+[debug] [2022-08-25T18:34:07.454Z] Node Version:  v16.13.0
+[debug] [2022-08-25T18:34:07.455Z] Time:          Fri Aug 26 2022 00:04:07 GMT+0530 (India Standard Time)
+[debug] [2022-08-25T18:34:07.456Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T18:34:07.530Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T18:34:07.530Z] > authorizing via signed-in user (mohdradhan06@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mohammed\Desktop\MYWEBSITE\mytools
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-25T18:34:19.479Z] Using project from CLI flag: mrajtrading-d1b7d
+[debug] [2022-08-25T18:34:19.482Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d [none]
+[debug] [2022-08-25T18:34:20.356Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d 200
+[debug] [2022-08-25T18:34:20.356Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d {"projectId":"mrajtrading-d1b7d","projectNumber":"912674660317","displayName":"MRajTrading","name":"projects/mrajtrading-d1b7d","resources":{"hostingSite":"mrajtrading-d1b7d"},"state":"ACTIVE","etag":"1_92364b56-d18d-4c3d-86b9-6f3a4f37cbf6"}
+[info] i  Using project mrajtrading-d1b7d (MRajTrading) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-25T18:34:33.789Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-25T18:34:33.943Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-25T18:34:33.944Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.3","browserURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.3/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Mohammed\Desktop\MYWEBSITE\mytools 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=572043109&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-25T18:34:51.323Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-25T18:34:51.324Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-25T18:34:51.751Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-25T18:34:51.751Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-25T18:34:51.762Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-25T18:34:52.181Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-25T18:34:52.181Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"MohammedR06","id":88424646,"node_id":"MDQ6VXNlcjg4NDI0NjQ2","avatar_url":"https://avatars.githubusercontent.com/u/88424646?v=4","gravatar_id":"","url":"https://api.github.com/users/MohammedR06","html_url":"https://github.com/MohammedR06","followers_url":"https://api.github.com/users/MohammedR06/followers","following_url":"https://api.github.com/users/MohammedR06/following{/other_user}","gists_url":"https://api.github.com/users/MohammedR06/gists{/gist_id}","starred_url":"https://api.github.com/users/MohammedR06/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MohammedR06/subscriptions","organizations_url":"https://api.github.com/users/MohammedR06/orgs","repos_url":"https://api.github.com/users/MohammedR06/repos","events_url":"https://api.github.com/users/MohammedR06/events{/privacy}","received_events_url":"https://api.github.com/users/MohammedR06/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":4,"public_gists":0,"followers":0,"following":0,"created_at":"2021-08-04T07:18:28Z","updated_at":"2022-08-15T08:31:31Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":2680,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as MohammedR06 
+[info] 
+[debug] [2022-08-25T18:35:08.797Z] >>> [apiv2][query] GET https://api.github.com/repos/MohammedR06/MRajTrading/actions/secrets/public-key type=owner
+[debug] [2022-08-25T18:35:09.134Z] <<< [apiv2][status] GET https://api.github.com/repos/MohammedR06/MRajTrading/actions/secrets/public-key 200
+[debug] [2022-08-25T18:35:09.135Z] <<< [apiv2][body] GET https://api.github.com/repos/MohammedR06/MRajTrading/actions/secrets/public-key {"key_id":"568250167242549743","key":"Uk9BF7YjPSF52H0RVPnd38XvCL7pkPn+Z//o1se1A0U="}
+[debug] [2022-08-25T18:35:09.137Z] >>> [apiv2][query] GET https://api.github.com/repos/MohammedR06/MRajTrading [none]
+[debug] [2022-08-25T18:35:09.517Z] <<< [apiv2][status] GET https://api.github.com/repos/MohammedR06/MRajTrading 200
+[debug] [2022-08-25T18:35:09.518Z] <<< [apiv2][body] GET https://api.github.com/repos/MohammedR06/MRajTrading {"id":527565522,"node_id":"R_kgDOH3IC0g","name":"MRajTrading","full_name":"MohammedR06/MRajTrading","private":false,"owner":{"login":"MohammedR06","id":88424646,"node_id":"MDQ6VXNlcjg4NDI0NjQ2","avatar_url":"https://avatars.githubusercontent.com/u/88424646?v=4","gravatar_id":"","url":"https://api.github.com/users/MohammedR06","html_url":"https://github.com/MohammedR06","followers_url":"https://api.github.com/users/MohammedR06/followers","following_url":"https://api.github.com/users/MohammedR06/following{/other_user}","gists_url":"https://api.github.com/users/MohammedR06/gists{/gist_id}","starred_url":"https://api.github.com/users/MohammedR06/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MohammedR06/subscriptions","organizations_url":"https://api.github.com/users/MohammedR06/orgs","repos_url":"https://api.github.com/users/MohammedR06/repos","events_url":"https://api.github.com/users/MohammedR06/events{/privacy}","received_events_url":"https://api.github.com/users/MohammedR06/received_events","type":"User","site_admin":false},"html_url":"https://github.com/MohammedR06/MRajTrading","description":null,"fork":false,"url":"https://api.github.com/repos/MohammedR06/MRajTrading","forks_url":"https://api.github.com/repos/MohammedR06/MRajTrading/forks","keys_url":"https://api.github.com/repos/MohammedR06/MRajTrading/keys{/key_id}","collaborators_url":"https://api.github.com/repos/MohammedR06/MRajTrading/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/MohammedR06/MRajTrading/teams","hooks_url":"https://api.github.com/repos/MohammedR06/MRajTrading/hooks","issue_events_url":"https://api.github.com/repos/MohammedR06/MRajTrading/issues/events{/number}","events_url":"https://api.github.com/repos/MohammedR06/MRajTrading/events","assignees_url":"https://api.github.com/repos/MohammedR06/MRajTrading/assignees{/user}","branches_url":"https://api.github.com/repos/MohammedR06/MRajTrading/branches{/branch}","tags_url":"https://api.github.com/repos/MohammedR06/MRajTrading/tags","blobs_url":"https://api.github.com/repos/MohammedR06/MRajTrading/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/MohammedR06/MRajTrading/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/MohammedR06/MRajTrading/git/refs{/sha}","trees_url":"https://api.github.com/repos/MohammedR06/MRajTrading/git/trees{/sha}","statuses_url":"https://api.github.com/repos/MohammedR06/MRajTrading/statuses/{sha}","languages_url":"https://api.github.com/repos/MohammedR06/MRajTrading/languages","stargazers_url":"https://api.github.com/repos/MohammedR06/MRajTrading/stargazers","contributors_url":"https://api.github.com/repos/MohammedR06/MRajTrading/contributors","subscribers_url":"https://api.github.com/repos/MohammedR06/MRajTrading/subscribers","subscription_url":"https://api.github.com/repos/MohammedR06/MRajTrading/subscription","commits_url":"https://api.github.com/repos/MohammedR06/MRajTrading/commits{/sha}","git_commits_url":"https://api.github.com/repos/MohammedR06/MRajTrading/git/commits{/sha}","comments_url":"https://api.github.com/repos/MohammedR06/MRajTrading/comments{/number}","issue_comment_url":"https://api.github.com/repos/MohammedR06/MRajTrading/issues/comments{/number}","contents_url":"https://api.github.com/repos/MohammedR06/MRajTrading/contents/{+path}","compare_url":"https://api.github.com/repos/MohammedR06/MRajTrading/compare/{base}...{head}","merges_url":"https://api.github.com/repos/MohammedR06/MRajTrading/merges","archive_url":"https://api.github.com/repos/MohammedR06/MRajTrading/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/MohammedR06/MRajTrading/downloads","issues_url":"https://api.github.com/repos/MohammedR06/MRajTrading/issues{/number}","pulls_url":"https://api.github.com/repos/MohammedR06/MRajTrading/pulls{/number}","milestones_url":"https://api.github.com/repos/MohammedR06/MRajTrading/milestones{/number}","notifications_url":"https://api.github.com/repos/MohammedR06/MRajTrading/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/MohammedR06/MRajTrading/labels{/name}","releases_url":"https://api.github.com/repos/MohammedR06/MRajTrading/releases{/id}","deployments_url":"https://api.github.com/repos/MohammedR06/MRajTrading/deployments","created_at":"2022-08-22T12:58:04Z","updated_at":"2022-08-22T12:59:13Z","pushed_at":"2022-08-25T18:21:12Z","git_url":"git://github.com/MohammedR06/MRajTrading.git","ssh_url":"git@github.com:MohammedR06/MRajTrading.git","clone_url":"https://github.com/MohammedR06/MRajTrading.git","svn_url":"https://github.com/MohammedR06/MRajTrading","homepage":null,"size":2304,"stargazers_count":0,"watchers_count":0,"language":"JavaScript","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"temp_clone_token":"","allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":1}
+[debug] [2022-08-25T18:35:09.519Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts [none]
+[debug] [2022-08-25T18:35:09.519Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts {"accountId":"github-action-527565522","serviceAccount":{"displayName":"GitHub Actions (MohammedR06/MRajTrading)","description":"A service account with permission to deploy to Firebase Hosting for the GitHub repository MohammedR06/MRajTrading"}}
+[debug] [2022-08-25T18:35:11.233Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts 409
+[debug] [2022-08-25T18:35:11.233Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts [omitted]
+[debug] [2022-08-25T18:35:11.234Z] >>> [apiv2][query] GET https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com [none]
+[debug] [2022-08-25T18:35:11.236Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:getIamPolicy [none]
+[debug] [2022-08-25T18:35:12.684Z] <<< [apiv2][status] GET https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com 200
+[debug] [2022-08-25T18:35:12.684Z] <<< [apiv2][body] GET https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com {"name":"projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com","projectId":"mrajtrading-d1b7d","uniqueId":"107449177985033767513","email":"github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com","displayName":"GitHub Actions (MohammedR06/MRajTrading)","etag":"MDEwMjE5MjA=","description":"A service account with permission to deploy to Firebase Hosting for the GitHub repository MohammedR06/MRajTrading","oauth2ClientId":"107449177985033767513"}
+[debug] [2022-08-25T18:35:12.868Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:getIamPolicy 200
+[debug] [2022-08-25T18:35:12.869Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:getIamPolicy {"version":1,"etag":"BwXnFOdPWMs=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-qdab7@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-912674660317@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-qdab7@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:mohdradhan06@gmail.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]}]}
+[debug] [2022-08-25T18:35:12.870Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:setIamPolicy [none]
+[debug] [2022-08-25T18:35:12.870Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:setIamPolicy {"policy":{"version":1,"etag":"BwXnFOdPWMs=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-qdab7@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-912674660317@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-qdab7@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:mohdradhan06@gmail.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]}]},"updateMask":"bindings"}
+[debug] [2022-08-25T18:35:14.992Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:setIamPolicy 200
+[debug] [2022-08-25T18:35:14.992Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:setIamPolicy {"version":1,"etag":"BwXnFQ7tzMg=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-qdab7@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-912674660317@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-qdab7@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:mohdradhan06@gmail.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com"]}]}
+[debug] [2022-08-25T18:35:14.992Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com/keys [none]
+[debug] [2022-08-25T18:35:14.993Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com/keys {"keyAlgorithm":"KEY_ALG_UNSPECIFIED","privateKeyType":"TYPE_GOOGLE_CREDENTIALS_FILE"}
+[debug] [2022-08-25T18:35:17.114Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com/keys 200
+[debug] [2022-08-25T18:35:17.114Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com/keys {"name":"projects/mrajtrading-d1b7d/serviceAccounts/github-action-527565522@mrajtrading-d1b7d.iam.gserviceaccount.com/keys/84cbbc21c687b0d3337d4456abda0ffd23ebf082","privateKeyType":"TYPE_GOOGLE_CREDENTIALS_FILE","privateKeyData":"ewogICJ0eXBlIjogInNlcnZpY2VfYWNjb3VudCIsCiAgInByb2plY3RfaWQiOiAibXJhanRyYWRpbmctZDFiN2QiLAogICJwcml2YXRlX2tleV9pZCI6ICI4NGNiYmMyMWM2ODdiMGQzMzM3ZDQ0NTZhYmRhMGZmZDIzZWJmMDgyIiwKICAicHJpdmF0ZV9rZXkiOiAiLS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tXG5NSUlFdmdJQkFEQU5CZ2txaGtpRzl3MEJBUUVGQUFTQ0JLZ3dnZ1NrQWdFQUFvSUJBUUM1NG9UZlRydnhaTkFOXG4vTDk2ZVZ6eGdDVlBpd1NyTEEzd2lsaCtpRzR5YUNQZWlOeFdJcXZHaVFQVDlQSzZrMGRwV3gxMTIvSFAvN281XG5CTmp2dDYweE1RNk1LdUI5VVZiM1BKdXM3NnRIMmkxS0tXbVcwTU1sNDBVUWlVYlJWMDJ6czM0YnZyMFJYVk5YXG5DWmY2bXg0MFdPbnNDT2x1aUUxSHA0aFFUUHo3Y3V0ZUtjUlAyU1RtL2pzc3Y4Z0JweUQraXVDU2tIaDExN21MXG5zUStIQ3FDYnhVczJuakpBVm9jT1RzQUJrNFJIc0N3NzltZVhhNlhSdUJtZWQ1Mlpka2tFbmpESGt3d2F4b1NRXG5jWmYrT0hMTmcvR1BhZnJuYzhseFVWTFZ3K2xXbEtHanZsbDd2SGNnYjI4NEpaanV6aGNtcFVFenppNEI4eTFoXG5uK0RtaEM5UkFnTUJBQUVDZ2dFQURKSFhGRmFrVDRyV3BZRFMzZVdqdGFlZkNQQklvalBreEJXY0xhcENIQXgrXG5FeDFFRzdCVkxLUUtsZVJPeVo1alNpbzIwQjBqRHBmOHNCVzJLYmVpUnR6MHMrRVpDY0JjcTNQMkZFMVIvV3VHXG5lOU90dlRJT3V0clJ5bkFqVVhmMWh0SlF2bkE1SkJuTEpKYVVmVnQzUVJPYmRkenJGQkMwSm0vd3dDVlo4aExSXG54ekNTSkFIa1UySnQ5TTdDVWw4RGg5USt0ZXBMOUMybGNZT2p6dDVDaDJCVUtCU29WbFZCVlUyUStmNGVlcHFvXG5jWUExdVpRNnhteUhEWHpVWVNaTGdicGR6cjFUZmUvdFFxV3Vlc0VseFQ3YlZSNVl2M3hnZnFwSVB5WUduVkh0XG53bXprNi9pM0ZZUlVWWk5WbVJ6SzMvMXdiWEUrNmdSTzFDQUpHbjRWQlFLQmdRRC9vaFcwTm5zUDFNdk5abHRIXG5hYTdGTjU4NUovYkVJS1RjUEJ2b21lbEs5MEZHdWdScTA0dkJOKzJVMnRmZW9MY3dUejkxampGWUk0TXluZHk4XG5pZVhOcHBpVUVpOEVqRVJ2dWxSRW1jZFYzSzQ1bnoxYjFyekVvditlMS9YajZHbnRJMTRNUnJraWpMbjcwbjFJXG5SYkpDZmdpb25EUWhHNXNoR3BPRjdYOWt5d0tCZ1FDNkpzOVhOdGg0S1paT1VUaU4ybUc2d09nVWJsWGxCWHcvXG56K0JUVzRsWkt3cTNiQ0Q4T1VUZS9iNUtZOFJYcnh3VmQ2U1FFN1NOOUtUL3I5WG5qUklEWjdJSVBsMmFwd1BvXG5xNEY4SEl0c2p1ZUQvUmdMaWxnRGtqZUFhNEdOZC82Q2FzVzg3emJMOTAvb0Z3Nlc2clZhdWgydDIyRlhqcEN2XG4ySmFPbjZUVTB3S0JnUUQ4UzFNU1pvYTBURGZNZzQzcEFFUE9QeVExTzkwUEdveTdFOVFUai91dzBqQ3BoaU9mXG43eU5LVWxGNERUanFiMEg5T3VtTnN3VytVR1pIQ1loMng3NTNaa25HTWVBWG8veFRMTm5JVHVGdU8zdjBRTlpGXG5FcjJCY01IS1dxaERBL212WXEyS2ZpNXdDK1h1eElLRFZzNGxVOUJsNEt5T1ZIbVpoV285enZWaFd3S0JnQXV2XG5lQUNQanRNc09TVTljQUZubmc3dElTUjNNS2tweVB6d2ZiSjk0b2RZYmxuSlRlREhiNDFYL0dRTEV6NDEzZHR6XG5JVDl5SFRsMERBK0k2REthNW5DVVI5YkFvM3ViMUdEOHN5b3BXSTgrQVVhRjBzYVdycU82d0FVdHVubzQrQjhUXG51TW45Y2tFbml6cVVoL1B0VStrWUdkamFGcWc2YU5iQkQrSndIeGJGQW9HQkFQMmhsTTBzblRxQWhwYXNVdXFGXG5XZmdRK1pzME9sR2VTY20yYUZpT3U5SlhrUXMwMDdXZ3MvdkdLZVdqNjVDRnU3NE9FTmV2MTBMRDRSVnlQMXM0XG5SYmNHb2lTTkd0K0srdnFWdEtPZS9vd3VUWDBoWkduWFdkU1JqT0VYOXVjbWJvQlRLNE0wVVAzZndDS2V4UEFEXG5ESUcwU2ZhWmFOUmlUNU96NzFveWdLRGhcbi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS1cbiIsCiAgImNsaWVudF9lbWFpbCI6ICJnaXRodWItYWN0aW9uLTUyNzU2NTUyMkBtcmFqdHJhZGluZy1kMWI3ZC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsCiAgImNsaWVudF9pZCI6ICIxMDc0NDkxNzc5ODUwMzM3Njc1MTMiLAogICJhdXRoX3VyaSI6ICJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20vby9vYXV0aDIvYXV0aCIsCiAgInRva2VuX3VyaSI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsCiAgImF1dGhfcHJvdmlkZXJfeDUwOV9jZXJ0X3VybCI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9vYXV0aDIvdjEvY2VydHMiLAogICJjbGllbnRfeDUwOV9jZXJ0X3VybCI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9yb2JvdC92MS9tZXRhZGF0YS94NTA5L2dpdGh1Yi1hY3Rpb24tNTI3NTY1NTIyJTQwbXJhanRyYWRpbmctZDFiN2QuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iCn0K","validAfterTime":"2022-08-25T18:35:16Z","validBeforeTime":"9999-12-31T23:59:59Z","keyAlgorithm":"KEY_ALG_RSA_2048","keyOrigin":"GOOGLE_PROVIDED","keyType":"USER_MANAGED"}
+[info] 
+[info] +  Created service account github-action-527565522 with Firebase Hosting admin permissions. 
+[debug] [2022-08-25T18:35:17.118Z] >>> [apiv2][query] PUT https://api.github.com/repos/MohammedR06/MRajTrading/actions/secrets/FIREBASE_SERVICE_ACCOUNT_MRAJTRADING_D1B7D [none]
+[debug] [2022-08-25T18:35:17.118Z] >>> [apiv2][body] PUT https://api.github.com/repos/MohammedR06/MRajTrading/actions/secrets/FIREBASE_SERVICE_ACCOUNT_MRAJTRADING_D1B7D {"encrypted_value":"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","key_id":"568250167242549743"}
+[debug] [2022-08-25T18:35:17.570Z] <<< [apiv2][status] PUT https://api.github.com/repos/MohammedR06/MRajTrading/actions/secrets/FIREBASE_SERVICE_ACCOUNT_MRAJTRADING_D1B7D 204
+[debug] [2022-08-25T18:35:17.570Z] <<< [apiv2][body] PUT https://api.github.com/repos/MohammedR06/MRajTrading/actions/secrets/FIREBASE_SERVICE_ACCOUNT_MRAJTRADING_D1B7D undefined
+[info] +  Uploaded service account JSON to GitHub as secret FIREBASE_SERVICE_ACCOUNT_MRAJTRADING_D1B7D. 
+[info] i  You can manage your secrets at https://github.com/MohammedR06/MRajTrading/settings/secrets. 
+[info] 
+[debug] [2022-08-25T18:44:16.525Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T18:44:16.527Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-08-25T18:44:16.528Z] CLI Version:   11.8.0
+[debug] [2022-08-25T18:44:16.528Z] Platform:      win32
+[debug] [2022-08-25T18:44:16.528Z] Node Version:  v16.13.0
+[debug] [2022-08-25T18:44:16.530Z] Time:          Fri Aug 26 2022 00:14:16 GMT+0530 (India Standard Time)
+[debug] [2022-08-25T18:44:16.530Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T18:44:16.621Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T18:44:16.621Z] > authorizing via signed-in user (mohdradhan06@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mohammed\Desktop\MYWEBSITE\mytools
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-25T18:44:25.730Z] Using project from CLI flag: mrajtrading-d1b7d
+[debug] [2022-08-25T18:44:25.737Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d [none]
+[debug] [2022-08-25T18:44:46.892Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d
+[debug] [2022-08-25T18:44:51.910Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-25T18:44:59.723Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T18:44:59.725Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-08-25T18:44:59.726Z] CLI Version:   11.8.0
+[debug] [2022-08-25T18:44:59.726Z] Platform:      win32
+[debug] [2022-08-25T18:44:59.726Z] Node Version:  v16.13.0
+[debug] [2022-08-25T18:44:59.727Z] Time:          Fri Aug 26 2022 00:14:59 GMT+0530 (India Standard Time)
+[debug] [2022-08-25T18:44:59.728Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T18:44:59.806Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T18:44:59.807Z] > authorizing via signed-in user (mohdradhan06@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mohammed\Desktop\MYWEBSITE\mytools
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-25T18:45:02.682Z] Using project from CLI flag: mrajtrading-d1b7d
+[debug] [2022-08-25T18:45:02.687Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d [none]
+[debug] [2022-08-25T18:45:23.842Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d
+[debug] [2022-08-25T18:45:28.859Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-25T18:46:08.957Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T18:46:08.959Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-25T18:46:08.960Z] CLI Version:   11.8.0
+[debug] [2022-08-25T18:46:08.960Z] Platform:      win32
+[debug] [2022-08-25T18:46:08.960Z] Node Version:  v16.13.0
+[debug] [2022-08-25T18:46:08.961Z] Time:          Fri Aug 26 2022 00:16:08 GMT+0530 (India Standard Time)
+[debug] [2022-08-25T18:46:08.961Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T18:46:09.044Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T18:46:09.045Z] > authorizing via signed-in user (mohdradhan06@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mohammed\Desktop\MYWEBSITE\mytools
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-25T18:46:35.879Z] Using project from CLI flag: mrajtrading-d1b7d
+[debug] [2022-08-25T18:46:35.882Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d [none]
+[debug] [2022-08-25T18:46:56.990Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d
+[debug] [2022-08-25T18:47:02.010Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-25T18:48:31.942Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T18:48:31.944Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-25T18:48:31.944Z] CLI Version:   11.8.0
+[debug] [2022-08-25T18:48:31.945Z] Platform:      win32
+[debug] [2022-08-25T18:48:31.945Z] Node Version:  v16.13.0
+[debug] [2022-08-25T18:48:31.946Z] Time:          Fri Aug 26 2022 00:18:31 GMT+0530 (India Standard Time)
+[debug] [2022-08-25T18:48:31.947Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T18:48:32.027Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T18:48:32.027Z] > authorizing via signed-in user (mohdradhan06@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mohammed\Desktop\MYWEBSITE\mytools
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-25T18:48:41.786Z] Using project from CLI flag: mrajtrading-d1b7d
+[debug] [2022-08-25T18:48:41.790Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d [none]
+[debug] [2022-08-25T18:49:02.851Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d
+[debug] [2022-08-25T18:49:07.869Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-25T18:51:06.417Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T18:51:06.419Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2022-08-25T18:51:06.419Z] CLI Version:   11.8.0
+[debug] [2022-08-25T18:51:06.420Z] Platform:      win32
+[debug] [2022-08-25T18:51:06.420Z] Node Version:  v16.13.0
+[debug] [2022-08-25T18:51:06.421Z] Time:          Fri Aug 26 2022 00:21:06 GMT+0530 (India Standard Time)
+[debug] [2022-08-25T18:51:06.421Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T18:51:06.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T18:51:06.496Z] > authorizing via signed-in user (mohdradhan06@gmail.com)
+[debug] [2022-08-25T18:51:06.496Z] [iam] checking project mrajtrading-d1b7d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-08-25T18:51:06.499Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:testIamPermissions [none]
+[debug] [2022-08-25T18:51:06.500Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:testIamPermissions x-goog-quota-user=projects/mrajtrading-d1b7d
+[debug] [2022-08-25T18:51:06.500Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-25T18:51:27.749Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/mrajtrading-d1b7d:testIamPermissions
+[debug] [2022-08-25T18:51:27.751Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d [none]
+[debug] [2022-08-25T18:51:48.835Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mrajtrading-d1b7d
+[debug] [2022-08-25T18:51:53.853Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] 
+[error] Error: An unexpected error has occurred.

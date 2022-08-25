@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../Card";
 import Footer from "../../Homepage/Footer";
 import Navbar from "../../Homepage/Navbar";
-import Pipe1 from "../../assets/pipe1.png";
+import Pipe1 from "../../assets/pipe1.jpg";
 import Pipe2 from "../../assets/pipe.jpg";
 import Pipe3 from "../../assets/pipe2.jpg";
 import Pipe4 from "../../assets/pipe4.jpg";
