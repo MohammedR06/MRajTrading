@@ -11,6 +11,7 @@ function Ourproduct() {
       <Itemsection />
       <Floatingbutton />
       <Footer />
+      <Floatingbutton />
     </>
   );
 }
