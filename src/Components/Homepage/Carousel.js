@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "./../../assets/img.jpg";
-import img2 from "./../../assets/image2.jpg";
-import img3 from "./../../assets/image4.jpg";
+import img1 from "../assets/img.jpg";
+import img2 from "../assets/image2.jpg";
+import img3 from "../assets/image4.jpg";
 
 function Carousel(props) {
   return (

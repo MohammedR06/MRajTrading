@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import hdpe from "./../../assets/hdpe.png";
+import hdpe from "../assets/hdpe.png";
 import { Link } from "react-router-dom";
 
 function Itemsection(props) {

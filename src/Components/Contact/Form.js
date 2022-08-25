@@ -4,6 +4,7 @@ import emailjs from "emailjs-com";
 function Form() {
   function sendEmail(e) {
     e.preventDefault();
+    document.getElementById("myForm").reset();
 
     emailjs
       .sendForm(
@@ -12,15 +13,13 @@ function Form() {
         e.target,
         "wD3a1IFQTWX6Wqt5R"
       )
-      .then((res) => {
-        alert("Done");
-      })
-      .catch((err) => console.log(err));
+      .then((res) => {})
+      .catch((err) => {});
   }
 
   return (
     <>
-      <form onSubmit={sendEmail}>
+      <form id="myForm" onSubmit={sendEmail}>
         <div className="container ps-3 pe-9 mt-5 bg-body rounded">
           <div className=" Form">
             <h2 className="contact mt-5 my-4 text-decoration-underline">
@@ -34,6 +33,7 @@ function Form() {
               id="Name"
               placeholder="Enter Name"
               name="name"
+              required
             />
             <label htmlFor="floatingInput">Enter Name</label>
           </div>
@@ -44,6 +44,7 @@ function Form() {
               id="floatingInput"
               placeholder="name@example.com"
               name="email"
+              required
             />
             <label htmlFor="floatingInput">Email address</label>
           </div>
@@ -54,6 +55,7 @@ function Form() {
               id="floatingPhonenumber"
               placeholder="Phone Number"
               name="phone"
+              required
             />
             <label htmlFor="floatingPassword">Phone Number</label>
           </div>
@@ -64,10 +66,15 @@ function Form() {
               placeholder="Leave a comment here"
               id="floatingTextarea"
               name="message"
+              required
             ></textarea>
             <label htmlFor="floatingTextarea">Enter Message</label>
           </div>
-          <button className="btn btn-primary mt-2" type="submit">
+          <button
+            className="btn btn-primary mt-2"
+            type="submit"
+            value="Reset form"
+          >
             Submit
           </button>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import og from "./../../assets/atm.svg";
+import og from "../assets/atm.svg";
 
 function Navbar() {
   return (

@@ -2,6 +2,13 @@ import React from "react";
 import Card from "../Card";
 import Footer from "../../Homepage/Footer";
 import Navbar from "../../Homepage/Navbar";
+import Pipe1 from "../../assets/pipe1.png";
+import Pipe2 from "../../assets/pipe.jpg";
+import Pipe3 from "../../assets/pipe2.jpg";
+import Pipe4 from "../../assets/pipe4.jpg";
+import Pipe5 from "../../assets/pipe5.jpg";
+import Pipe6 from "../../assets/pipe6.jpg";
+import Pipe7 from "../../assets/pipe7.jpeg";
 
 function Gardenpipe() {
   return (
@@ -16,61 +23,61 @@ function Gardenpipe() {
             <div className="col-md-3">
               <Card
                 title="Halwa Pipe"
-                description="Model : TYTM15C12"
-                imageUrl="https://gravitybath.com/admin/style/images/products/20211201041113_WALL-MIXER-TELEPHONIC.jpg"
+                description="ALL Sizes are available"
+                imageUrl={Pipe1}
               />
             </div>
             <div className="col-md-3">
               <Card
-                title="Bib Cock"
-                description="Model : TYBC15C12"
-                imageUrl="https://gravitybath.com/admin/style/images/products/20211201031551_BIB-COCK-TYDO.jpg"
+                title="Green Braided Pipe"
+                description="ALL Sizes are available"
+                imageUrl={Pipe2}
               />
             </div>
             <div className="col-md-3">
               <Card
-                title="Angle Cock"
-                description="Model : TYAC15C12"
-                imageUrl="https://gravitybath.com/admin/style/images/products/20211201031713_ANGLE-VALVE-TYDO.jpg"
+                title="White Breaded Pipe"
+                description="ALL Sizes are available"
+                imageUrl={Pipe3}
               />
             </div>
             <div className="col-md-3">
               <Card
-                title="Pillar Cock"
-                description="Model : TYPCXXC12"
-                imageUrl="https://gravitybath.com/admin/style/images/products/20211201031800_PILLAR-COCK.jpg"
+                title="SUction Pipe"
+                description="ALL Sizes are available"
+                imageUrl={Pipe4}
               />
             </div>
           </div>
           <div className="row mt-3">
             <div className="col-md-3">
               <Card
-                title="Long Nose"
-                description="Model : TYLN15C12"
-                imageUrl="https://gravitybath.com/admin/style/images/products/20211201031636_LONG-NOSE.jpg"
+                title="Level Pipe"
+                description="ALL Sizes are available"
+                imageUrl={Pipe5}
               />
             </div>
             <div className="col-md-3">
               <Card
-                title="2 in 1 Bib Cock"
-                description="Model : TY2B15C12"
-                imageUrl="https://gravitybath.com/admin/style/images/products/20211201031925_2in1-BIB-COCK-TYDO.jpg"
+                title="Cotton Pipe"
+                description="ALL Sizes are available"
+                imageUrl={Pipe6}
               />
             </div>
             <div className="col-md-3">
               <Card
-                title="Sink Cock "
-                description="Model : TYSC15C12"
-                imageUrl="https://gravitybath.com/admin/style/images/products/20211201035327_SINK-COCK.jpg"
+                title="Zebra (Plastic) Pipe "
+                description="ALL Sizes are available"
+                imageUrl={Pipe7}
               />
             </div>
-            <div className="col-md-3">
+            {/* <div className="col-md-3">
               <Card
-                title="Concealed Stop Cock 15MM"
-                description="Model :TYCS15C12"
-                imageUrl="https://gravitybath.com/admin/style/images/products/20211201032037_CONCEALED-STOP-COCK-15mm.jpg"
+                title="Pillar Cock"
+                description="Model : TYPCXXC12"
+                imageUrl={Pipe4}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

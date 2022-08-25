@@ -44,9 +44,7 @@
   background-color: #e1f4f3;
   cursor: pointer;
 }
-/* .navbar:hover {
-  text-decoration: underline;
-} */
+
 .navbar-brand {
   position: relative;
   color: black;
@@ -191,5 +189,4 @@ h2 {
 
 .my-float {
   margin-top: 22px;
-  /* background-color: white; */
 }
