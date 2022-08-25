@@ -9,7 +9,7 @@ function Upvc() {
       <Navbar />
       <div className="container my-5">
         <div className="container6">
-          <h3 className="product text-center mb-5 mt-5">
+          <h3 className="product text-center mb-5 mt-5 text-decoration-underline">
             EasyFit UPVC Pipes and Fittings
           </h3>
           <h5 className="text-left mx-4 mt-3 text-primary text-decoration-underline">

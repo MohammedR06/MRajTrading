@@ -9,7 +9,7 @@ function Aquarious() {
       <Navbar />
       <div className="container my-5">
         <div className="container6">
-          <h3 className=" text-center mb-5 mt-5">
+          <h3 className=" text-center mb-5 mt-5 text-decoration-underline">
             Aquarious Pipes and Fittings
           </h3>
           <h5 className="text-left mx-4 mt-3 text-primary text-decoration-underline">

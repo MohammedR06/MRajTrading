@@ -13,14 +13,16 @@ function Form() {
         e.target,
         "wD3a1IFQTWX6Wqt5R"
       )
-      .then((res) => {})
+      .then((res) => {
+        alert("Form Submited");
+      })
       .catch((err) => {});
   }
 
   return (
     <>
       <form id="myForm" onSubmit={sendEmail}>
-        <div className="container ps-3 pe-9 mt-5 bg-body rounded">
+        <div className="container ps-3 pe-9 mt-5 bg-body rounded margin">
           <div className=" Form">
             <h2 className="contact mt-5 my-4 text-decoration-underline">
               Contact Us

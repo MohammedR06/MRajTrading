@@ -105,6 +105,9 @@ h2 {
 }
 /* Contat Us */
 @media screen and (max-width: 750px) {
+  .margin {
+    margin-top: 10px;
+  }
   .form-control {
     width: 200px;
     height: 50px;
@@ -119,7 +122,7 @@ h2 {
     width: 300px;
   }
   .contact {
-    padding-top: 30px;
+    padding-top: 10px;
   }
 }
 
@@ -134,7 +137,7 @@ h2 {
   }
 }
 /* Itemsection */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 860px) {
   .product {
     padding-top: 30px;
     font-size: 20px;
