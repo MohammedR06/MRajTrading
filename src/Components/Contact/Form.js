@@ -4,7 +4,6 @@ import emailjs from "emailjs-com";
 function Form() {
   function sendEmail(e) {
     e.preventDefault();
-    document.getElementById("myForm").reset();
 
     emailjs
       .sendForm(
