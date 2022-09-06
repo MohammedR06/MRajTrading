@@ -2,6 +2,14 @@ import React from "react";
 import Navbar from "../../Homepage/Navbar";
 import Card from "../Card";
 import Footer from "../../Homepage/Footer";
+import p1 from "../Astral/Astral cpvc/elbow.jpg";
+import p2 from "../Astral/Astral cpvc/tee.jpg";
+import p3 from "../Astral/Astral cpvc/socket.jpg";
+import p4 from "../Astral/Astral cpvc/mta.jpg";
+import p5 from "../Astral/Astral cpvc/fta.jpg";
+import p6 from "../Astral/Astral cpvc/tankNiple.jpg";
+import p7 from "../Astral/Astral cpvc/union.jpg";
+import p8 from "../Astral/Astral cpvc/showElbow.jpg";
 
 function Cpvc() {
   return (
@@ -35,28 +43,28 @@ function Cpvc() {
               <Card
                 title="Elbow 90"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_product_part-1-cpvc_sch80---249419-elbow-90---2.jpg"
+                imageUrl={p1}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Tee"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_product_part-1-cpvc_sch40--249380-tee-2.jpg"
+                imageUrl={p2}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Socket"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_product_part-1-cpvc_sch40--249383-coupling.jpg"
+                imageUrl={p3}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="MTA"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_new_project_(8).jpg"
+                imageUrl={p4}
               />
             </div>
           </div>
@@ -65,28 +73,28 @@ function Cpvc() {
               <Card
                 title="FTA"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_product_part-2---cpvc_sdr11--249259-female-adaptor-(cpvc-threads).jpg"
+                imageUrl={p5}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Tank Nipel"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_product_part-2---cpvc_sdr11--249268-tank-adaptor-(socket-type).jpg"
+                imageUrl={p6}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Union"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_product_part-1-cpvc_sch80---249404-union.jpg"
+                imageUrl={p7}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Elbow 45"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_product_part-1-cpvc_sch80---249420-elbow-45.jpg"
+                imageUrl={p8}
               />
             </div>
           </div>

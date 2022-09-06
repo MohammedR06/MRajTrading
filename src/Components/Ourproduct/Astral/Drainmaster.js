@@ -2,6 +2,14 @@ import React from "react";
 import Navbar from "../../Homepage/Navbar";
 import Card from "../Card";
 import Footer from "../../Homepage/Footer";
+import p1 from "../Astral/Astral pvc/bend.jpg";
+import p2 from "../Astral/Astral pvc/tee.jpg";
+import p3 from "../Astral/Astral pvc/socket.jpg";
+import p4 from "../Astral/Astral pvc/nahanitrap.jpg";
+import p5 from "../Astral/Astral pvc/plugbend.jpg";
+import p6 from "../Astral/Astral pvc/plugtee.jpg";
+import p7 from "../Astral/Astral pvc/plugtee.jpg";
+import p8 from "../Astral/Astral pvc/fourway.jpg";
 
 function Drainmaster() {
   return (
@@ -23,28 +31,28 @@ function Drainmaster() {
               <Card
                 title="Bend (Elbow)"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_astral_drainmaster__bend_87.jpg"
+                imageUrl={p1}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Tee"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_drain_master_250465_single_tee.jpg"
+                imageUrl={p2}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Socket"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_drain_master_250529_repair_coupler.jpg"
+                imageUrl={p3}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Nahani trap w/o jali"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_without-jali.jpg"
+                imageUrl={p4}
               />
             </div>
           </div>
@@ -53,28 +61,28 @@ function Drainmaster() {
               <Card
                 title="Door Bend (Elbow)"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_pipe-87.jpg"
+                imageUrl={p5}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Door Tee"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_drain_master_250469_single_tee_with_door.jpg"
+                imageUrl={p6}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Shoe Bend (Elbow 45)"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_drain_master_250451_bend_45.jpg"
+                imageUrl={p7}
               />
             </div>
             <div className="col-md-3">
               <Card
                 title="Multi trap w/o jali"
                 description="All Sizes are available"
-                imageUrl="https://www.astralpipes.com/uploads/product_range_images/main_product_drain-master-traps_d-m-traps--250604-multi-floor-trap-partition-with-plug.jpg"
+                imageUrl={p8}
               />
             </div>
           </div>
